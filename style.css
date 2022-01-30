@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(47, 47, 77, 0.897);
+    font-family: monospace;
+}
+
+header {
+    
+    background-color: rgb(24, 24, 53);
+    color: #fff;
+    
+}
+
+nav {
+
+    width: 100%;
+    height: 72px;
+    background-color: rgb(24, 24, 53);
+    padding: 6px;
+    box-shadow: 0px 3px 9px rgba(4, 4, 8, 0.5);
+    position: relative;
+    
+}
+
+
+ul {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li {
+
+    list-style: none;
+    display: inline-block;
+    line-height: 60px;
+
+}
+
+ul li a {
+
+    display: block;
+    font-size: 20px;
+    color:  rgb(129, 129, 129);
+    padding: 0 29px;
+    border-radius: 9%;
+    
+}
+
+ul li a:hover {
+
+    animation: menu 400ms forwards;
+   
+    color: #fff;
+
+}
+
+@keyframes menu {
+    
+    100% {
+    background-color: rgb(31, 31, 66);
+    }
+
+}
+
+/*Materials*/
+
+.container {
+    
+    margin: 9px;
+    padding: 9px;
+    background-color: rgb(116, 43, 43);
+    max-width: 1400px;
+    max-height: 500px;
+    overflow: auto;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+/*content*/
+
+.heading {
+
+    text-align: center;
+    background-color: #fff;
+    color: rgb(116, 43, 43);
+    padding: 3px;
+    margin: 3px;
+
+}
+
+.title {
+
+    margin: 3px;
+
+}
+
+/*square images*/
+
+.gallerys {
+ 
+    float: left;
+    width: 328px;
+    padding: 5px;
+
+}
+
+.gallerys img {
+    
+    width: 100%;
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 4px;
+
+}
+
+.gallerys .des {
+
+    width: 319px;
+    height: 40px;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.700);
+    color: rgb(116, 43, 43);
+
+}
+
+/*16:9 images*/
+
+.galleryr {
+
+    float: left;
+    width: 656.5px;
+    padding: 5px;
+
+}
+
+.galleryr img {
+
+    width: 100%;
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 4px;
+
+}
+
+.galleryr .des {
+
+}
